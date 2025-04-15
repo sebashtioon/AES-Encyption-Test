@@ -13,3 +13,7 @@ config_version=5
 config/name="AES Encyption Test"
 config/features=PackedStringArray("4.4", "Forward Plus")
 config/icon="res://icon.svg"
+
+[autoload]
+
+EncryptionManager="*res://src/singletons/[manager] encryption.gd"
